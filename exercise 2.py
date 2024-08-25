@@ -1,4 +1,5 @@
 import math
+import random
 
 # 1. Write a program that asks your name and then greets you by your name
 name = input("What is your name? ")
@@ -41,4 +42,5 @@ print(f"The weight in modern units: {int(total // 1000)} kilograms and {total % 
 # 6. Write a program that draws two random combinations of numbers for a combination lock:
 # a 3-digit code where each number is between 0 and 9.
 # a 4-digit code where each number is between 1 and 6.
-
+print(f"A 3-digit code where each number is between 0 and 9 is: {random.randint(0,9)}{random.randint(0,9)}{random.randint(0,9)}")
+print(f"A 4-digit code where each number is between 1 and 6 is: {random.randint(1,6)}{random.randint(1,6)}{random.randint(1,6)}{random.randint(1,6)}")
